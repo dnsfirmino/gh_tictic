@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="@string/telaregistrarusuario_tv_nome"/>
+
+    <EditText
+        android:id="@+id/telaregistrarusuario_et_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:hint="@string/telaregistrarusuario_et_nome"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="@string/telaregistrarusuario_tv_sobrenome"/>
+
+    <EditText
+        android:id="@+id/telaregistrarusuario_et_sobrenome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:hint="@string/telaregistrarusuario_et_sobrenome"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="@string/telaregistrarusuario_tv_email"/>
+
+    <EditText
+        android:id="@+id/telaregistrarusuario_et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telaregistrarusuario_et_email"
+        android:textSize="15sp"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="@string/telaregistrarusuario_tv_telefone"/>
+
+    <EditText
+        android:id="@+id/telaregistrarusuario_et_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:inputType="phone"
+        android:maxLength="13"
+        android:hint="@string/telaregistrarusuario_et_telefone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="@string/telaregistrarusuario_tv_dtnascimento_dia"/>
+
+    <EditText
+        android:id="@+id/telaregistrarusuario_et_dtnascimento_dia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:inputType="number"
+        android:maxLength="2"
+        android:hint="@string/telaregistrarusuario_et_dtnascimento_et_dtnascimento_dia"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="@string/telaregistrarusuario_tv_dtnascimento_mes"/>
+
+    <EditText
+        android:id="@+id/telaregistrarusuario_et_dtnascimento_mes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:inputType="number"
+        android:maxLength="2"
+        android:hint="@string/telaregistrarusuario_et_dtnascimento_mes"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="@string/telaregistrarusuario_tv_senha"/>
+
+    <EditText
+        android:id="@+id/telaregistrarusuario_et_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:hint="@string/telaregistrarusuario_et_senha"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/telaregistrarusuario_et_confirmacao_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:hint="@string/telaregistrarusuario_et_confirmar_senha"
+        android:inputType="textPassword"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/telaregistrarusuario_btn_salvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/telaregistrarusuario_btn_salvar"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

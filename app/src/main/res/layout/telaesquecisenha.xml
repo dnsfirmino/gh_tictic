@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:textSize="15sp"
+        android:textColor="#FF212121"
+        android:text="@string/telaesquecisenha_tv_mensagem_titulo" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="@string/telaregistrarusuario_tv_sobrenome"/>
+
+    <EditText
+        android:id="@+id/telaesquecisenha_et_sobrenome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:inputType="text"
+        android:hint="@string/telaregistrarusuario_et_sobrenome"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="@string/telaregistrarusuario_tv_email"/>
+
+    <EditText
+        android:id="@+id/telaesquecisenha_et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/telaregistrarusuario_et_email"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/telaesquecisenha_btn_definir_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/telaesquecisenha_btn_esqueci_senha"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
